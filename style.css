@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(0, 0, 0);
+    
+
+}
+.nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+.left{
+    
+    padding-top: 16px;
+}
+
+.right{
+    
+    padding: 20px;
+   
+   
+}
+.right>button{
+    padding: 6px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 15px;
+    border: 2px solid gray;
+  
+
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+
+
+}
+.right>button:hover{
+    background-color: white;
+    color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_left{
+    color: aliceblue;
+    padding: 100px;
+    width: 20vw;
+    
+}
+.main_content{
+    width: 40vw;
+    color: aliceblue;
+    font-size: large;
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+.main_right{
+    width:40vw;
+}
+.main_content>div>button{
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid gray;
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+.main_content>div>button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.main_left:hover{
+    color: aqua;
+    
+}
